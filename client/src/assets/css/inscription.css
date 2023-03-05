@@ -1,0 +1,48 @@
+.section-inscription{
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,9,121,1) 35%, rgba(16,184,236,1) 91%, rgba(0,212,255,1) 100%);;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+}
+
+.form-log{
+    width: 45%;
+}
+
+.form-img{
+    width: 45%;
+    background-color: #fff;
+    min-height: 44rem;
+    display: flex;
+    align-items: center;
+}
+
+.cascading-right{
+    border: 0;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .container{
+        flex-direction: column;
+    }
+
+    
+.form-log{
+    width: 95%;
+}
+
+.form-img{
+    display: none;
+}
+    
+}

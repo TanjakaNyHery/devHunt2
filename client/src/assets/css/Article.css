@@ -1,0 +1,101 @@
+.container-totalite{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.search{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.pub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width: 100%;
+}
+
+.center{
+    width: 80%;
+}
+
+.user-info{
+    display: flex;
+}
+
+.userPhoto{
+    border-radius: 50%;
+}
+
+.pub-info{
+    margin-left: 15px;
+    align-items: center;
+}
+.small{
+    color: rgb(121, 119, 119);
+    margin-left: 2px;
+}
+
+.cat-pub{
+    margin-left: 15px;
+}
+
+.reaction{
+    width: 33.3%;
+    text-align: center;
+}
+
+.commentaire{
+    width: 33.3%;
+    text-align: center;
+}
+
+.viewCommentary{
+    width: 33.3%;
+    text-align: center;
+}
+
+.react-res{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linear{
+    display: flex;
+}
+
+.close-modal{
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 750px) {
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .center{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+}
+
+.invisible{
+    display: none;
+}
+
+.element-commentaire{
+    margin-left: 50px;
+}
+
+.place{
+    flex-direction: column;
+}

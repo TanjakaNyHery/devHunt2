@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.container-principale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,251,255,1) 100%);
+}
+.Contain{
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.descr{
+    text-align: center;
+}
+
+.container-fluid{
+    align-items: center;
+}
+
+.vector{
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.Hleft{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+     
+}
+.Hright{
+    display: none;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-btn{
+    display: flex;
+}
+
+.btn-index{
+    margin-left: 2rem;
+    background-color: rgb(211, 211, 211);
+    color: #7919db;
+    font-weight: 600;
+}
+.btn-index:hover{
+    margin-left: 2rem;
+    background-color: #fff;
+    color: #7919db;
+    font-weight: 600;
+}
+
+
+footer{
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    margin-bottom: -1rem;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .left{
+        align-items: center;
+        width: auto;
+    }
+
+    .right{
+        align-items: center;
+        width: auto;
+    }
+    
+    
+    .Contain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .vector{
+        display: flex;
+        align-items: center;
+        border-radius: 2rem;
+        width: 90%;
+    
+    }
+    
+}

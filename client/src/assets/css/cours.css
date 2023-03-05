@@ -1,0 +1,26 @@
+
+.header-cours{
+    justify-content: space-between;
+}
+
+.card-cours{
+    width: 80%;
+}
+
+.body-cours{
+    margin-bottom: 5rem;
+}
+
+.container-cours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}

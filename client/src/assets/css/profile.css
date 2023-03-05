@@ -1,0 +1,43 @@
+.profil {
+    width: 750px;
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
+    
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+.notif-user{
+    width: 100%;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    height: 00vh;
+}
+
+
+@media screen and (max-width: 1050px) {
+    
+    .profil{
+        width: 90%;
+        height: 100vh;
+    }
+
+    .image{
+        padding-left: auto;
+    }
+    
+}
